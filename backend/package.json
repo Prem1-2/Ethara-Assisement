@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.5.1",
   "description": "Ethara AI — standalone Express API server (split out from the Next.js monolith)",
   "scripts": {
     "dev": "tsx watch src/index.js",
