@@ -1,0 +1,29 @@
+{
+  "name": "ethara-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ethara AI — standalone Express API server (split out from the Next.js monolith)",
+  "scripts": {
+    "dev": "tsx watch src/index.js",
+    "start": "tsx src/index.js"
+  },
+  "dependencies": {
+    "@react-email/components": "^1.0.12",
+    "@react-email/render": "2.0.8",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1",
+    "nodemailer": "^8.0.7",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tsx": "^4.20.6",
+    "ua-parser-js": "^2.0.9",
+    "winston": "^3.19.0",
+    "zod": "^4.4.1"
+  }
+}
